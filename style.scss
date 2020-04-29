@@ -1,0 +1,88 @@
+.img_carousel {
+
+  width: 60%;
+  height: 30%;
+
+}
+
+@media (max-width: 800px) {
+
+  .img_carousel_sm {
+
+    width: 80%;
+    height: 60%;
+
+  }
+}
+
+body {
+
+  background-color:#e1ebfc;
+
+}
+
+
+%boxes_inheritance {
+  padding-left: 1px;
+  margin: 1px;
+  margin-bottom: 3px;
+
+}
+
+div h5 {
+
+  @extend %boxes_inheritance;
+  font-family:Helvetica Narrow, sans-serif;
+
+}
+
+p.card-text {
+
+  @extend %boxes_inheritance;
+  font-family:Palatino, serif;
+
+}
+
+
+@media print {
+
+  .only_screen {
+
+    display: none;
+
+  }
+
+}
+
+
+
+$font: arial, sans-serif;
+
+#brother_title {
+
+  text-align: center;
+  font-family:$font;
+
+}
+
+
+table {
+  font-family: $font;
+  border-collapse: collapse;
+  width: 100%;
+
+  td, th {
+
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    padding: 8px;
+
+  }
+
+}
+
+.buttons {
+
+  margin-top: 0.5%;
+
+}

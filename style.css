@@ -1,0 +1,42 @@
+.img_carousel {
+  width: 60%;
+  height: 30%; }
+
+@media (max-width: 800px) {
+  .img_carousel_sm {
+    width: 80%;
+    height: 60%; } }
+body {
+  background-color: #e1ebfc; }
+
+div h5, p.card-text {
+  padding-left: 1px;
+  margin: 1px;
+  margin-bottom: 3px; }
+
+div h5 {
+  font-family: Helvetica Narrow, sans-serif; }
+
+p.card-text {
+  font-family: Palatino, serif; }
+
+@media print {
+  .only_screen {
+    display: none; } }
+#brother_title {
+  text-align: center;
+  font-family: arial, sans-serif; }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%; }
+  table td, table th {
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    padding: 8px; }
+
+.buttons {
+  margin-top: 0.5%; }
+
+/*# sourceMappingURL=style.css.map */
